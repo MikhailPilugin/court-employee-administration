@@ -4,4 +4,6 @@ import java.util.List;
 
 public interface CourtService {
     List get();
+
+    List getEmployees(Integer id);
 }
