@@ -12,7 +12,7 @@ import ru.iterion.courtemployeeadministration.service.CourtServiceImpl;
 import java.util.List;
 
 @RestController
-@RequestMapping("/court")
+@RequestMapping("/")
 public class CourtController {
     private static final Logger log = LoggerFactory.getLogger(CourtController.class);
 
